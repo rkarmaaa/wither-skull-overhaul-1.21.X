@@ -3,15 +3,15 @@
 	"id": "wither-skull-overhaul",
 	"version": "${version}",
 	"name": "Wither Skull Overhaul",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Wither Skull is now craftable using Wither Skull Fragments.",
 	"authors": [
 		"rkarmaa"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/wither-skull-overhaul",
-		"sources": ""
+		"sources": "https://github.com/rkarmaaa/wither-skull-overhaul-1.21.X"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/wither-skull-overhaul/icon.png",
 	"environment": "*",
 	"entrypoints": {

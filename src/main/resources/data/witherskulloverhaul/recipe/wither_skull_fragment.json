@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wither-skull-overhaul:wither_skull_fragment"
+    }
+  },
+  "result": {
+    "id": "minecraft:wither_skeleton_skull",
+    "count": 1
+  },
+  "group": "stuff"
+}

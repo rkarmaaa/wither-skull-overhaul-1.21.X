@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wither-skull-overhaul:item/wither_skull_fragment"
+  }
+}

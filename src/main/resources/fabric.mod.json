@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "wither-skull-overhaul",
+	"version": "${version}",
+	"name": "Wither Skull Overhaul",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"rkarmaa"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/wither-skull-overhaul",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/wither-skull-overhaul/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.rkarmaa.witherskulloverhaul.WitherSkullOverhaul"
+		],
+		"client": [
+			"dev.rkarmaa.witherskulloverhaul.WitherSkullOverhaulClient"
+		],
+		"fabric-datagen": [
+			"dev.rkarmaa.witherskulloverhaul.WitherSkullOverhaulDataGenerator"
+		]
+	},
+	"mixins": [
+		"wither-skull-overhaul.mixins.json",
+		{
+			"config": "wither-skull-overhaul.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

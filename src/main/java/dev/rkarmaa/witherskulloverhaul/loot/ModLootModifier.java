@@ -13,7 +13,6 @@ import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.function.EnchantedCountIncreaseLootFunction;
 import net.minecraft.loot.function.LootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
-import net.minecraft.loot.function.SetItemLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;

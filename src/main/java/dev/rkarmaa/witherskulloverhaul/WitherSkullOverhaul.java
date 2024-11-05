@@ -1,6 +1,8 @@
 package dev.rkarmaa.witherskulloverhaul;
 
+import dev.rkarmaa.witherskulloverhaul.loot.ModLootModifier;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,5 +16,6 @@ public class WitherSkullOverhaul implements ModInitializer {
 	public void onInitialize() {
 		WitherSkullOverhaul.LOGGER.info("Registering Mod Items for " + WitherSkullOverhaul.MOD_ID);
 		ModItems.registerModItems();
+		LootTableEvents.MODIFY.register(new ModLootModifier());
 	}
 }

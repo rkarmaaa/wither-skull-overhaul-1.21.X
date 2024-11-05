@@ -3,7 +3,6 @@
 	"package": "dev.rkarmaa.witherskulloverhaul.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

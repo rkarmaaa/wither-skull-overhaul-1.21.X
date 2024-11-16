@@ -1,8 +1,9 @@
 {
 	"required": true,
-	"package": "dev.rkarmaa.witherskulloverhaul.mixin",
+	"package": "dev.rkarmaa.witherskulloverhaul.mixin.client",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
+	"client": [
+		"ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

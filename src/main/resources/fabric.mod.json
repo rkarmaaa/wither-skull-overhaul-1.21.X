@@ -18,12 +18,19 @@
 		"main": [
 			"dev.rkarmaa.witherskulloverhaul.WitherSkullOverhaul"
 		],
+		"client": [
+			"dev.rkarmaa.witherskulloverhaul.WitherSkullOverhaulClient"
+		],
 		"fabric-datagen": [
 			"dev.rkarmaa.witherskulloverhaul.WitherSkullOverhaulDataGenerator"
 		]
 	},
 	"mixins": [
-		"wither-skull-overhaul.mixins.json"
+		"wither-skull-overhaul.mixins.json",
+		{
+			"config": "wither-skull-overhaul.client.mixins.json",
+			"environment": "client"
+		}
 	],
 	"depends": {
 		"fabricloader": ">=0.16.7",
